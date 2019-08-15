@@ -39,7 +39,7 @@ $bc-red: #bc0000;
 $dark-navy-gray: #34495e;
 $ice-bluelagoon: #dff9fb;
 // Font Colors
-$base-background-color: #dff9fb;
+$base-background-color: $ice-bluelagoon;
 $base-font-color: $dark-gray;
 $action-color: $dark-navy-gray;
 $highlight-color: tint($action-color, 33%);
