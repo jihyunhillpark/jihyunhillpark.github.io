@@ -22,7 +22,7 @@ remote_theme: bencentra/centrarium
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jihyunhillpark.github.io" # the base hostname & protocol for your site
 cover: "/assets/IMG_5851.jpeg"
-logo: "/assets/logo.png"
+logo: "/assets/puppy_logo.jpg"
 
 # Build settings
 markdown: kramdown
