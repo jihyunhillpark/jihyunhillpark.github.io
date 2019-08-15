@@ -120,6 +120,7 @@ comment:true
 {% endif %}
 
 {% if site.disqus_shortname %}
+{% include disqus.html %}
 {% unless page.disqus_disabled %}
 <section class="disqus">
   <div id="disqus_thread"></div>
@@ -140,4 +141,4 @@ comment:true
 {% endif %}
 </div>
 </div>
-{% if site.disqus-shortname %}{% include disqus.html %}{% endif %}
+
