@@ -9,8 +9,8 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: jihyunhill blog
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
+title: 쪄니의 CS blog
+subtitle: "Foot print of my learning Computer Science"
 email: 2600301@handong.edu
 name: Jihyun Park
 description: >
