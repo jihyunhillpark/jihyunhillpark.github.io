@@ -42,7 +42,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: jihyunhill
+disqus_shortname: jihyunhill-cs-blog
 
 #Google analytics
 # ga_tracking_id: "UA-XXXX-1"
