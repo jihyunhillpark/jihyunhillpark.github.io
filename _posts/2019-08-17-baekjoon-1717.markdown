@@ -31,9 +31,9 @@ int find(int a)
 }
 {% endhighlight %}
 
-2. merge연산은 두 원소가 속한 집합을 하나의 집합으로 합하는 것이다. 이 때 최상위 조상 노드의 수가 작은 집합으로 합하는 방향을 정한다.
+2. Union연산은 두 원소가 속한 집합을 하나의 집합으로 합하는 것이다. 이 때 최상위 조상 노드의 수가 작은 집합으로 합하는 방향을 정한다.
 {% highlight javascript %}
-void merge(int a, int b)
+void union_set(int a, int b)
 {
    a = parent[a];
    b = parent[b];
@@ -41,6 +41,7 @@ void merge(int a, int b)
    if( a > b ) swap(a,b);
    parent[b] = a;
 }
+{% endhighlight %}
 ## 마치며
 
 이 상호배타적집합 자료구조는 활용범위가 생각보다 넓은 것 같다. 다른 알고리즘으로 짰을 때 복잡한 풀이가 나와도, 이 자료구조를 선택해서 풀었을 때 너 쉽고 간결하고 효율적이르 풀리는 경우가 종종 있다. 알아두자!
