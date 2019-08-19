@@ -2,7 +2,7 @@
 layout: post
 title: "OS_Ch2. 시스템 구조- 운영체제 구조"
 author: jihyunhill
-categories: OperatingSystem
+categories: Operating_System
 tags: OS System Architecture
 ---
 
