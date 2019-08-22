@@ -2,7 +2,7 @@
 layout: post
 title: "OS_Ch2.시스템 호출"
 author: jihyunhill
-categories: Operating_System
+categories: OperatingSystem
 tags: OS System Calls
 ---
 
