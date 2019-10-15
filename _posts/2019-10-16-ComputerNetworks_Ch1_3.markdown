@@ -22,7 +22,7 @@ reserved, dedicated resources, no sharing, call setup required (like reservation
 ②	Data Transfer
 ③	Circuit release(왜냐하면 여기에 있는 링크 중에서 다른 사람도 쓸 수 있으니까)
 
-<strong> <Circuit Switching의 Multiplexing> : 이를 통해 하나의 링크로 여러 사용자가 사용가능!</strong>
+<strong> Circuit Switching의 Multiplexing : 이를 통해 하나의 링크로 여러 사용자가 사용가능!</strong>
 DM(Frequency-division-multipexing),TDM(Time-division-multiplexing)
 
  FDM : 링크를 통해 설정된 연결은 링크의 주파수 스펙트럼을 공유. 링크는 연결되는 동안 각 연결에 대해 주파수대역을 고정 제공. Modulation을 통해서 각 채널마다 겹치지 않는 주파수대역을 할당한다.
