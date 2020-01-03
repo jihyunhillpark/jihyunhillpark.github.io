@@ -5,3 +5,7 @@ author: jihyunhill
 categories: Fuzzing
 tags: fuzzing testing afl
 ---
+
+### Testing이란 무엇? 왜 필요?         
+
+Software Testing(테스팅)은 말그대로 개발자가 만든 __소프트웨어의 보안 및 안정성을 높이기 위해__ 해당 소프트웨어를 테스트하는 것이다. "처음부터 잘 만들면 되지!그러면 테스팅 안 해도 되지 않을까?" 라고 하는 사람은 없길 바란다. 
