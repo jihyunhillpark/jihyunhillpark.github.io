@@ -9,7 +9,7 @@ tags: swift ios
 
 Xcode 프로젝트는 다음과 같이 여러 하위 디렉토리들과 그에 대응하는 파일들로 구성되어 있다.     
 __예시__        
-![xcodedirectories](./assets/swift/directories.png)
+![xcodedirectories](/assets/swift/directories.png)
 
 1. UI     
 Main.storyboard : 화면들의 레이아웃들을 포함한 앱의 인터페이스     
