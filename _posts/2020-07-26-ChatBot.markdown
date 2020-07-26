@@ -12,17 +12,20 @@ __예시__
 ![directories](/assets/swift/directories.png)
 
 1. __UI__     
+__화면 구성과 관련된 파일__       
 Main.storyboard : 화면들의 레이아웃들을 포함한 앱의 인터페이스     
 LaunchScreen.storyboard : 앱이 처음 런칭 되었을 때 나타나는 화면. 빈화면이다.      
 그 외 .swift파일 : UI와 연결되어 동작하는 특정 기능을 위한 파일      
 Assets.xcassets : 이미지와 같이 앱에서 쓰이는 자원들을 저장    
 
-2. __Controllers__
+2. __Controllers__       
+__화면을 제어하기 위한 코드들이 담긴 곳__       
 ...ViewController.swift : app의 메인 ViewController가 되기도 함. 전반적인 핸들링이 이루어짐.     
 
 3. __Model__    
 앞서 본 개발자가 struct를 이용하여 만든 타입 즉, 모델에 대한 정보를 담은 .swift로 구성.       
 
 4. __Support files__     
+__앱의 기본 동작을 위한 코드들이 담긴 곳__        
 AppDelegate.swift : 기본 앱 템플릿의 한 부분으로, 앱이 런치되는 것과 같이 이벤트들을 핸들링하기 위해 쓰인다.    
 Info.plist : (이것도) 기본 앱 텝플릿의 한 부분으로서, 앱에 대한 정보들을 담고 있다.
