@@ -22,19 +22,19 @@ tags: IoT
 
 #### 2. MCU 와 MPU (feat.gateway)     
 MCU(Micro Controller Unit) :     
-마이크로프로세서(CPU 기능의 핵심장치)와 I/O장치 등 주변 장치들을 __하나의 칩셋__으로 만들어 소프트웨어를 이식해 작동하는 컴퓨터를 말한다. 임베디드 시스템에 많이 사용되며, 한번 프로그래밍하여 정한 기능을 수행하도록 하며, __주변장치(I/O)들을 제어__하는 것이 주 목적이다.     
+마이크로프로세서(CPU 기능의 핵심장치)와 I/O장치 등 주변 장치들을 __하나의 칩셋__ 으로 만들어 소프트웨어를 이식해 작동하는 컴퓨터를 말한다. 임베디드 시스템에 많이 사용되며, 한번 프로그래밍하여 정한 기능을 수행하도록 하며, __주변장치(I/O)들을 제어__ 하는 것이 주 목적이다.     
 ex. Arduino, ESP8266 등...    
 ex. 적용 대상 - 냉장고, 전자레인지 등...
 
-<img src="/assets/IoT/esp8266.png" width="40%" height="30%" title="esp8266" alt="esp8266"></img>
+<img src="/assets/IoT/esp8266.png" width="40%" height="30%" title="esp8266" alt="esp8266">
 
 MPU(Micro Processor Unit) :      
-범용 CPU기능을 포함하고 있는 초소형 실리콘 칩. 주변장치가 없다면 동작이 불가능하다. 컴퓨터 내장 CPU와 같이 __연산수행__이 주 목적이다.   
+범용 CPU기능을 포함하고 있는 초소형 실리콘 칩. 주변장치가 없다면 동작이 불가능하다. 컴퓨터 내장 CPU와 같이 __연산수행__ 이 주 목적이다.   
 ex. Raspberry Pi, Samsung ARTIK       
 
-<img src="/assets/IoT/raspberryPi.jpg" width="40%" height="30%" title="raspberry" alt="raspberry"></img>
+<img src="/assets/IoT/raspberryPi.jpg" width="40%" height="30%" title="raspberry" alt="raspberry">
 
-즉, __혼자서__ 기본작동을 하는 칩셋은 __MCU__ , __주변장치__가 반드시 있어야 기본작동을 하는 것은 __CPU__와 __MPU__이다.
+즉, __혼자서__ 기본작동을 하는 칩셋은 __MCU__ , __주변장치__ 가 반드시 있어야 기본작동을 하는 것은 __CPU__ 와 __MPU__ 이다.
 
 #### 3. 네똑(network)와 프로토콜 (Data 전달)    
 IoT의 핵심은 디바이스 스스로가 인터넷에 연결되어 데이터를 전송해야 한다는 점이다. 그러기 위해서는 통신 장비가 필요하고 통신을 위해서는 규약 즉, 프로토콜이 필요하다. 통신 장비로는 우리가 잘 알고 있는 와이파이 공유기가 있고(기타 등등), 통신 프로토콜로는 __MQTT(Message Queueing Telemetry Transport), CoAP(Constrained Application Protocol), Bluetooth, Zigbee, ZWave__ 등이 있다.
