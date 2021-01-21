@@ -11,10 +11,10 @@ exclude:
 # Site settings
 title: 쪄니의 CS blog
 subtitle: "Foot print of my learning Computer Science"
-email: 2600301@handong.edu
+email: jihyunee95@gmail.com
 name: Jihyun Park
 description: >
-  Foot print of my study(Computer Science)
+  Foot print of my study (Computer Science)
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -81,8 +81,8 @@ social:
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: # Ben Centra
+    url: # https://www.linkedin.com/pub/ben-centra/47/769/60a
     desc: Connect with me on LinkedIn
     share: false
 
