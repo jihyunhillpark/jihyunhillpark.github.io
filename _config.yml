@@ -74,7 +74,7 @@ social:
 
   - name: GitHub
     icon: github
-    username: bencentra
+    username: jihyunhillpark
     url: https://github.com/jihyunhillpark
     desc: Fork me on GitHub
     share: true
@@ -161,7 +161,7 @@ social:
     username:
     url:
     desc: Share to Reddit
-    share: true
+    share: false
 
   - name: "Hacker News"
     icon: hacker-news
