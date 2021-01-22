@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "swift 공부 - 간단한 앱만들기로 swift 시작하기(Intro to App Development with Swift)"
+title: "iOS 공부 - 간단한 앱만들기로 swift 시작하기(Intro to App Development with Swift)"
 author: jihyunhill
-categories: swift
+categories: iOS
 tags: swift ios
 ---
 
