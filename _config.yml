@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KO"
-title                    : "쪄니 CS 월드"
+title                    : "쪄니의 CS 월드"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "to make each day count" # site tagline that appears below site title in masthead
 name                     : "Your Name"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -96,7 +96,7 @@ author:
   name             : "쪄니"
   avatar           : "/assets/author.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  location         : "Republic of Korea"
   email            : jihyunee95@gmail.com
   links:
     - label: "Email"
