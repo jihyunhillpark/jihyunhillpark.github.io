@@ -1,8 +1,8 @@
 ---
 title: "OS_Ch2. 시스템 구조- 운영체제 구조"
-author: jihyunhill
 categories: OperatingSystem
-tags: OS System Architecture
+tags:
+  - OSArchitecture
 ---
 
 운영체제는 점점 커지고 복잡한 시스템이 되어왔다. 운영체제가 적절하게 동작하고 쉽게 변경될 수 있게 하는 것은 중요하다. 이를 위한 방법으로는 태스크를 작은 구성 요소로 분할하는 접근 방법과 하나로 일관시키는 시스템이 있는데, 전자가 더 보편적이다.

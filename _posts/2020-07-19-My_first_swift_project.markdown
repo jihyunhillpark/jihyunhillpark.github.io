@@ -1,8 +1,9 @@
 ---
 title: "새로운 단기 swift 프로젝트 시작"
-author: jihyunhill
 categories: iOS
-tags: swift ios
+tags:
+  - swift
+  - ios
 ---
 
 ### 여름방학을 맞이하며...

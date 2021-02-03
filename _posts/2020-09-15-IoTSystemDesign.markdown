@@ -1,8 +1,8 @@
 ---
 title: "IoT - 사물인터넷의 첫걸음"
-author: jihyunhill
 categories: IoT
-tags: IoT
+tags:
+  - IoT
 ---
 ### IoT로 퐁당🤓     
 

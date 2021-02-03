@@ -1,8 +1,9 @@
 ---
 title:  "백준알고리즘No.1158 - 조세퍼스 문제"
-author: Jihyunhill
-categories: Codingstudy
-tags: baekjoon coding test
+categories: Algorithms
+tags:
+  - Algorithms
+  - BOJ
 ---
 
 ## 들어가며

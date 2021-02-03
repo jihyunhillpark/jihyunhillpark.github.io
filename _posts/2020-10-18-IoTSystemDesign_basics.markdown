@@ -1,8 +1,8 @@
 ---
 title: "IoT - 사물인터넷을 위한 기본 요소 "
-author: jihyunhill
 categories: IoT
-tags: IoT
+tags:
+  - IoT
 ---
 ### IoT기술을 적용하기 위해 필수적인 요소들은 뭐가 있을까?🤓   
 #### 1. 센서와 액추에이터 (Data 생성)   

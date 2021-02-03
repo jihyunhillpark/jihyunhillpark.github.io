@@ -1,9 +1,10 @@
 ---
 title:  "DP(Dynamic Programming)동적계획법"
 date:   2019-12-28 05:33:59
-author: Jihyunhill
 categories: Algorithms
-tags:	Algorithms coding test 종만북
+tags:
+  - Algorithms
+  - BOJ
 ---
 
 # DP란 무엇인가?

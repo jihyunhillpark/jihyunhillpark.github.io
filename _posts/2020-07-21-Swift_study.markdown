@@ -1,8 +1,9 @@
 ---
 title: "iOS 공부 - 간단한 앱만들기로 swift 시작하기(Intro to App Development with Swift)"
-author: jihyunhill
 categories: iOS
-tags: swift ios
+tags:
+  - swift
+  - ios
 ---
 
 ### (5강 내용)간단한 사진 보는 간단한 앱을 만들자.

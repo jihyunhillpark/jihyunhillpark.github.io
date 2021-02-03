@@ -1,8 +1,8 @@
 ---
 title: "네트워크1장"
-author: jihyunhill
 categories: ComputerNetworks
-tags: OS System Calls
+tags:
+  - ComputerNetworks
 ---
 
 # Ch1. 컴퓨터 네트워크와 인터넷

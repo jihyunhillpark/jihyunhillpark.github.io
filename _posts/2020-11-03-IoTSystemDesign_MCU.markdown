@@ -1,8 +1,8 @@
 ---
 title: "IoT - NodeMCU 프로그래밍"
-author: jihyunhill
 categories: IoT
-tags: IoT
+tags:
+  - IoT
 ---
 ### MCU를 통해 센서와 액추에이터를 제어해보자  
 #### 1. Arduino IDE

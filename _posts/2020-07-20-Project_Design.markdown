@@ -1,8 +1,8 @@
 ---
 title: "iOS 프로젝트 일지 - 더미데이터 생성(기획)"
-author: jihyunhill
 categories: iOS
-tags: swift ios
+tags:
+  - swift/ios
 ---
 
 ### Numbers로 필요한 DB테이블 모델링 하고, 더미데이터 생성해보기

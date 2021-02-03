@@ -1,8 +1,8 @@
 ---
 title: "iOS 프로젝트 일지 - 여태까지 했던 것 브리핑(개발)"
-author: jihyunhill
 categories: iOS
-tags: swift ios
+tags:
+  - swift/ios
 ---
 ### 한꺼번에 몰아 쓰게 된 일지🙀     
 

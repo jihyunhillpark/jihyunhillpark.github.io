@@ -1,8 +1,8 @@
 ---
 title: "네트워크1장3절"
-author: jihyunhill
 categories: ComputerNetworks
-tags: computerNetworks
+tags:
+  - ComputerNetworks
 ---
 
 ## 1.3 네트워크 코어

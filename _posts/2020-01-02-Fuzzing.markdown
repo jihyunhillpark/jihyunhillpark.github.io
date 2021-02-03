@@ -1,8 +1,8 @@
 ---
 title: "Testing 그리고 Fuzzing"
-author: jihyunhill
 categories: Fuzzing
-tags: fuzzing testing afl
+tags:
+  - fuzzing/testing  
 ---
 
 ### Testing이란 무엇? 왜 필요?         

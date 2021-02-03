@@ -1,8 +1,8 @@
 ---
 title: "swift 공부 - Structure"
-author: jihyunhill
 categories: swift
-tags: swift ios
+tags:
+  - swift/ios
 ---
 
 ### 데이터 모델링     

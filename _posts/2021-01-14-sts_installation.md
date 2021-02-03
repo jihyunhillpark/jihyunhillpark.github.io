@@ -1,8 +1,8 @@
 ---
 title: "Spring - 맥북(Mac)에서 STS설치"
-author: jihyunhill
 categories: Java/Spring
-tags: Java Spring
+tags:
+  - Spring
 ---
 
 ## 부제 : Failed to create the Java Virtual Machine 해결

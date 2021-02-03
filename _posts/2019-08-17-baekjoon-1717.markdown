@@ -1,8 +1,9 @@
 ---
 title:  "백준알고리즘No.1717 - 상호배타적집합(Union,Find) 문제"
-author: Jihyunhill
-categories: Codingstudy
-tags: baekjoon coding test
+categories: Algorithms
+tags:
+  - Algorithms
+  - BOJ
 ---
 
 ## 들어가며
