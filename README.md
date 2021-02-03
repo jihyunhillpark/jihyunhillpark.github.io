@@ -1,237 +1,207 @@
-# Centrarium [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
+# Grape-Theme
 
-A simple yet classy theme for your Jekyll website or blog. Customizable to fit your style or brand.
+![home](./assets/img/home.png)
 
-Built with these awesome libraries:
-* [Bourbon][bourbon]
-* [Neat][neat]
-* [Bitters][bitters]
-* [Refills][refills]
-* [Font Awesome][fontawesome]
-* [HighlightJS][highlightjs]
-* [Lightbox][lightbox]
+블로그뿐만 아니라 포트폴리오 페이지도 지원하는 Grape-Theme를 자유롭게 사용하세요.
 
-Here's a [demo](http://bencentra.com/centrarium). It also works on [GitHub Pages](http://bencentra.github.io/centrarium/). I also use it for [my own website][bencentra].
+Welcome to Grape Theme!  It is good for a portfolio as well as a blog.
+<br>
+Customize Grape-Theme and use it for free.
 
-Inspired by dirkfabisch's [Mediator](https://github.com/dirkfabisch/mediator) theme, which I previously used for my own blog, as well as [Type Theme](http://rohanchandra.github.io/type-theme/).
+[Demo](https://grape-theme.netlify.com)
 
-Cover image by Chris M. Morris ([flickr][cover]).
 
-## Features
-
-This theme comes with a number of features, including:
-* Easily customizable fonts and colors
-* Cover images for your homepage and blog posts
-* Pagination enabled by default
-* Archiving of posts by categories and tags
-* Syntax highlighting for code snippets
-* Disqus integration for post comments
-* Lightbox for viewing full-screen photos and albums
-* Google Analytics with custom page name tracking
-* Social media integration (Twitter, Facebook, LinkedIn, GitHub, and more)
 
 ## Installation
 
-If you're just getting started with Jekyll, you can use this repository as a starting point for your own site. Just [download this project](https://github.com/bencentra/centrarium/archive/master.zip) and add all the files to your project. Add your blog posts to the `posts/` directory, and create your pages with the proper Jekyll front matter (see `posts.html` for an example).
+1. Fork and clone the Grape Theme repo
 
-If your site already uses Jekyll, follow these steps:
+   ```
+   git clone https://github.com/naye0ng/Grape-Theme.git
+   ```
 
-1. Replace the files in the `_includes`, `_layouts`, and `_sass` directories with those from this project.
-2. Replace your `index.html` with the one from this project, and copy over the `posts.html` file as well.
-3. Copy the contents of the `_config.yml` from this project in to yours, and update the necessary information.
+2. Install Jekyll 
 
-Don't forget to install Jekyll and other dependencies:
-```bash
-# cd into project directory
-cd centrarium
-# install Bundler if you don't have it already
-gem install bundler
-# install jekyll, jekyll-archives, jekyll-sitemap, and jekyll-paginate
-bundle install
-```
+   ```
+   gem install jekyll
+   ```
 
-## Updating Styles
+3. Install the theme's dependencies
 
-If you want change the CSS of the theme, you'll probably want to check out these files in the `_sass/` directory:
+   ```
+   bundle install
+   ```
 
-* `base/_variables.scss`: Common values found throughout the project, including base font size, font families, colors, and more.
-* `base/_typography.scss`: Base typography values for the site (see `typography.html` for a demonstration)
-* `_layout.scss`: The primary styles for the layout and design of the theme.
+4. Update `_config.yml` and `projects.yml` with your own settings.
 
-### Important Variables
+5. Run the Jekyll server
 
-Here are the important variables from `base/_variables.scss` you can tweak to customize the theme to your liking:
+   ```
+   bundle exec jekyll serve
+   ```
 
-* `$base-font-family`: The font-family of the body text. Make sure to `@import` any new fonts!
-* `$heading-font-family`: The font-family of the headers. Make sure to `@import` any new fonts!
-* `$base-font-size`: The base font-size. Defaults to $em-base from Bourbon (`bourbon/settings/_px-to-em.scss`).
-* `$base-font-color`: The color for the body text.
-* `$action-color`: The color for links in the body text.
-* `$highlight-color`: The color for the footer and page headers (when no cover image provided).
+   
 
-## Configuration
+## Customizing
 
-All configuration options can be found in `_config.yml`.
+Grape-Theme에서는 자랑할 만한 두 가지 기능을 제공합니다. 홈 화면의 프로필 섹션과 포트폴리오 페이지의 프로젝트, 상세 프로필 기능이 그것 입니다. 이 모든 기능들은  `_config.yml` 와 `projects.yml` 파일을 수정하는 것만으로도 충분합니다.
 
-### Site Settings
+Grape-Theme has two great features: the profile section and the project section of the portfolio page. Just by changing  `_config.yml` and `projects.yml` , you can use all of these features.
 
-* __title:__ The title for your site. Displayed in the navigation menu, the `index.html` header, and the footer.
-* __subtitle:__ The subtitle of your site. Displayed in the `index.html` header.
-* __email:__ Your email address, displayed with the Contact info in the footer.
-* __name:__ Your name. _Currently unused._
-* __description:__ The description of your site. Used for search engine results and displayed in the footer.
-* __baseurl:__ The subpath of your site (e.g. /blog/).
-* __url:__ The base hostname and protocol for your site.
-* __cover:__ The relative path to your site's cover image.
-* __logo:__ The relative path to your site's logo. Used in the navigation menu instead of the title if provided.
 
-### Build Settings
 
-* __markdown:__ Markdown parsing engine. Default is kramdown.
-* __paginate:__ Number of posts to include on one page.
-* __paginate_path:__ URL structure for pages.
-* __inter_post_navigation:__ Whether to render links to the next and previous post on each post.
+### Blog Settings
 
-### Archive Settings
+기본적인 블로그 설정은 `config.yml` 에서 가능합니다.
 
-Although this theme comes with a combined, categorized archive (see `posts.html`), you can enable further archive creation thanks to [jekyll-archives][archives]. Support for category and tag archive pages is included, but you can also add your own archive pages for years, months, and days.
+The blog configuration is available in `config.yml`.
 
-To change archive settings, see the __jekyll-archives__ section of `_config.yml`:
-
-```yml
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
-```
-
-To fully disable the archive, remove the __jekyll-archives__ section AND remove it from the __gems__ list.
-
-__NOTE:__ the Jekyll Archive gem is NOT included with GitHub pages! Disable the archive feature if you intend to deploy your site to GitHub pages. [Here is a guide](http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html) on how you can use the `jekyll archive` gem with GitHub pages. The general gist: compile the Jekyll site locally and then push that compiled site to GitHub.
-
-A sitemap is also generated using [jekyll-sitemap][sitemap].
-
-### Syntax Highlighting Settings
-
-Inside of a post, you can enable syntax highlighting with the `{% highlight <language> %}` Liquid tag. For example:
+#### Site configuration
 
 ```
-{% highlight javascript %}
-function demo(string, times) {
-  for (var i = 0; i < times; i++) {
-    console.log(string);
-  }
-}
-demo("hello, world!", 10);
-{% endhighlight %}
+baseurl: "{subpath}"
+url : "https://{username}.github.io"
+
+theme_settings :
+  title : {blog title}
 ```
 
-You can change the [HighlightJS theme][highlightjs_theme] in `_config.yml`:
 
-```yml
-highlightjs_theme: "monokai_sublime"
+
+#### Profile Settings
+
+간단한 프로필 정보는 홈 화면에서 출력되며, experience 및 skills 부분은 포트폴리오 페이지에서 함께 보여집니다.
+
+Profile is displayed on the index page, and also experience and skills are displayed on the portfolio page.
+
+```
+profile :
+  image : assets/img/{prorile image}
+    username : {username}
+    description : 
+    experience :
+      - start :
+        end : 
+        experience : {company name}, {title}
+     skills : 
+      - skill : 
+        value : 85  # Percent value
 ```
 
-### Disqus Settings
 
-You can enable [Disqus][disqus] comments for you site by including one config option:
 
-* __disqus_shortname:__ Your Disqus username. If the property is set, Disqus comments will be included with your blog posts.
+#### Pagination
 
-If you want to disable Disqus for only a specific page, add __disqus_disabled: true__ to the page's front matter.
+한 페이지에서 보여질 포스팅 개수를 정의합니다.
 
-### Google Analytics Settings
+Defines the number of posts to be shown on one page.
 
-You can enable basic [Google Analytics][ga] pageview tracking by including your site's tracking ID:
-
-* __ga_tracking_id__: The Tracking ID for your website. You can find it on your Google Analytics dashboard. If the property is set, Google Analytics will be added to the footer of each page.
-
-### Social Settings
-
-Your personal social network settings are combined with the social sharing options. In the __social__ section of `_config.yml`, include an entry for each network you want to include. For example:
-
-```yml
-social:
-  - name: Twitter                         # Name of the service
-    icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
-    username: TheBenCentra                # (User) Name to display in the footer link
-    url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
-    desc: Follow me on Twitter            # Description to display as link title, etc
-    share: true                           # Include in the "Share" section of posts
+```
+paginate: 5
 ```
 
-### Social Protocols
 
-Using the Open Graph Protocol or Twitter Card metadata, you can automatically set the images and text used when people share your site on Twitter or Facebook. These take a bit of setup, but are well worth it. The relevant fields are at the end of the `_config.yml` file.
 
-Also there is another protocol, the Open Source protocol, for saying where your site is hosted if the source is open. This helps develops more easily see your code if they are interested, or if they have issues. For more, see http://osprotocol.com.
+#### Disqus
 
-### Category Descriptions
+[Disqus shortname](https://help.disqus.com/en/articles/1717111-what-s-a-shortname)을 설정하고, 포스팅 속성에 `comments : true` 를 추가하면 블로그 글에서 댓글을 사용할 수 있습니다.
 
-You can enhance the `posts.html` archive page with descriptions of your post categories. See the __descriptions__ section of `_config.yml`:
+you can use the comments by following [document](https://help.disqus.com/en/articles/1717111-what-s-a-shortname) and adding a `comments : true` 
 
-```yml
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
+``` 
+disqus_shortname :
 ```
 
-### Custom Page-Specific Javascript
 
-You can add page-specific javascript files by adding them to the top-level `/js` directory and including the filename in the __custom_js__ page's configuration file:
 
-```yml
-# Custom js (for individual pages)
----
-layout: post
-title:  "Dummy Post"
-date:   2015-04-18 08:43:59
-author: Ben Centra
-categories: Dummy
-custom_js:
-- Popmotion
-- Vue
----
+### Portfolio Settings
+
+![home](./assets/img/portfolio.png)
+
+프로젝트 세팅은 `_data/projects.yml`에서 가능합니다.
+
+The Project configuration is available in `_data/projects.yml`.
+
+포트폴리오 페이지에서는 프로젝트 목록과 상세보기를 모달로 지원합니다. 물론 상세보기는 선택적이며, 상세값이 `modal : False`인 경우 모달 버튼은 생성되지 않습니다.
+
+The portfolio page provides projects and detailed views by modal.   If `modal : False` is selected, modal will not be displayed on site. 
+
+- **print** : 
+  
+  -  `print : True` 를 선택한다면, 블로그의 홈 화면에서도 프로젝트의 정보가 출력됩니다.
+  - If `print : True` is selected, it will be displayed on landing page
+  
+   ![print project](./assets/img/print-project.png)
+  
+- **modal** 
+  - `modal : True` 를 선택한다면 모달 버튼이 활성와 됩니다.
+  
+  - If `modal : True` is selected, modal will be displayed on the Portfolio page
+  
+    ![home](./assets/img/modal.png)
+
+```
+print : True
+modal : True  
+```
+당신의 프로젝트에 대한 링크와 상세 설명을 아래와 같이 추가하세요.
+
+Add details(link, description) about your projects
+
+```
+url : https://github.com/naye0ng/Grape-Theme # Full URL
+image : "portfolio.png" # path: assets/project/
+date : 2019.06.09 - 2019.07.11
+title : 
+summary : 
+description :  
+# modal contents
+contents :
+  - title :
+    image :      	    
+    description : 
 ```
 
-The `/js/` directory would contain the corresponding files:
 
-```bash
-$ ls js/
-Popmotion.js Vue.js
-```
 
-## Contributing
+### Colors
 
-Want to help make this theme even better? Contributions from the community are welcome!
+블로그의 컬러들은 `_sass/base/_variable.scss` 에서 한번에 변경이 가능합니다.
 
-Please follow these steps:
+You can change colors at once. colors are in `_sass/base/_variable.scss`
 
-1. Fork/clone this repository.
-2. Develop (and test!) your changes.
-3. Open a pull request on GitHub. A description and/or screenshot of changes would be appreciated!
-4. I ([Ben Centra](https://github.com/bencentra)) will review and merge the pull request.
+
+
+## Posts in Grape theme
+
+이 블로그의 모든 포스팅 스타일은  `_sass/base/_utility.scss` 에 정의되어 있으며 [Demo page](https://grape-theme.netlify.com/2019/06/08/markdown-and-html.html)와 [Demo page](https://grape-theme.netlify.com/2019/06/09/grape-theme-style.html)에서 여러 태그들의 출력을 확인할 수 있습니다.
+
+You can confirm how to draw tags at [here](https://grape-theme.netlify.com/2019/06/08/markdown-and-html.html) and [here](https://grape-theme.netlify.com/2019/06/09/grape-theme-style.html)
+
+### Create a new post
+
+1. Create a `.md` inside `_posts` folder
+
+   ```
+   2019-07-11-grape-theme.md
+   ```
+   > 한글로 파일 이름을 만드는 경우, 구글 검색을 붙였을때 문제가 발생합니다. 되로록 영어를 사용해주세요:D
+2. Write the [Front Matter](https://jekyllrb.com/docs/front-matter/) and content in the file.
+
+   ```
+   ---
+   layout: post
+   title: title
+   subtitle : subtitle
+   tags: [tag1, tag2]
+   author: 
+   comments : 
+   ---
+   ```
+
+
 
 ## License
 
-MIT. See [LICENSE.MD](https://github.com/bencentra/centrarium/blob/master/LICENSE.md).
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-[bencentra]: http://bencentra.com
-[bourbon]: http://bourbon.io/
-[neat]: http://neat.bourbon.io/
-[bitters]: http://bitters.bourbon.io/
-[refills]: http://refills.bourbon.io/
-[fontawesome]: http://fortawesome.github.io/Font-Awesome/
-[highlightjs]: https://highlightjs.org/
-[highlightjs_theme]: https://highlightjs.org/static/demo/
-[lightbox]: http://lokeshdhakar.com/projects/lightbox2/
-[cover]: https://www.flickr.com/photos/79666107@N00/3796678503/in/photolist-6MuYfc-61Rtft-8XzPmY-a6Cozm-54eSMs-6oMJmk-aepZQq-9YkPHp-fiAEGE-dVP4Z5-oxPyJP-atKUFJ-9YHWA5-9YF2f2-9YF2gR-9YHVGN-9YHVvs-qZYYQ6-4JqP2i-a2peGy-9YHVUm-9YHVF7-9YHVCL-9YF3NK-cYteMo-aiPmb9-69dtAi-9YF21x-4aWpmn-7SLiUL-77pqVX-8vXbYv-4HGDSH-a2h5P1-8LsZrQ-9aj1ez-auPZ7q-9YHVMd-9YF2bi-9YF23D-8LpWpn-9an6KL-9YHVZL-dqZ3Cz-2GuvnX-9YHWUo-9YHVWd-p5Roh5-i1zTbv-6sYrUT
-[disqus]: https://disqus.com/
-[ga]: http://www.google.com/analytics/
-[archives]: https://github.com/jekyll/jekyll-archives
-[sitemap]: https://github.com/jekyll/jekyll-sitemap
