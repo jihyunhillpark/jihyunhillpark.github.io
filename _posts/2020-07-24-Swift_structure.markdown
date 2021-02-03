@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "swift 공부 - Structure"
 author: jihyunhill
 categories: swift

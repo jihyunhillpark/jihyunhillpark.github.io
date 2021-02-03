@@ -1,9 +1,8 @@
 ---
-layout: post
 title:  "백준알고리즘No.1158 - 조세퍼스 문제"
 author: Jihyunhill
 categories: Codingstudy
-tags: baekjoon coding test 
+tags: baekjoon coding test
 ---
 
 ## 들어가며
@@ -27,7 +26,7 @@ tags: baekjoon coding test
  - 이중연결리스트를 통한 연산 중 원하는 위치에 노드를 추가하는 add연산과, 노드를 삭제하는 delete연산을 가져야 한다. 두 연산에서 논리의 순서가 중요하다. 자칫 순서가 어긋나 노드가 끊어질 수도 있기 때문이다.
 
 3. 이중연결리스트의 사용을 위해서 사용할 수 있는 것들
- 
+
  - 시작 노드를 가르키는 노드 포인터 변수 head
  - 끝 노드를 가르키는 노드 포인터 변수 tail
  - 노드들로 연결된 이중 연결리스트 크기에 대한 변수 size
@@ -41,7 +40,7 @@ using namespace std;
 
 class Node{
 friend class DLList;
-private : 
+private :
     Node* prev;
     int value;
     Node* next;
@@ -69,7 +68,7 @@ DLList::DLList(int num)
         if(i == 1){
              tail = head = new Node(i);
             head->prev = head->next = head; // 런타임에러로 추가된 부분
-        } 
+        }
         else{ // 끝에 노드 추가
             tail->next = new Node(i);
             (tail->next)->prev = tail;
@@ -126,4 +125,3 @@ int main()
 이산수학의 점화식 자체로는 굉장히 간단하다. 이 점화식과 더불어 배열을 사용해서 구현해보는 풀이가 있는데, 매우 빠르고 간결하고 효율적이다.
 
 점화식은 위키백과에 있는 것을 참고한다.
- 

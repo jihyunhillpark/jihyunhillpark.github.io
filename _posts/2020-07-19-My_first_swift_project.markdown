@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "새로운 단기 swift 프로젝트 시작"
 author: jihyunhill
 categories: iOS

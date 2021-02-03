@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Testing 그리고 Fuzzing"
 author: jihyunhill
 categories: Fuzzing

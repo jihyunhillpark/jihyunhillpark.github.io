@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "iOS 공부 - 간단한 앱만들기로 swift 시작하기(Intro to App Development with Swift)"
 author: jihyunhill
 categories: iOS

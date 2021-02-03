@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "DP(Dynamic Programming)동적계획법"
 date:   2019-12-28 05:33:59
 author: Jihyunhill

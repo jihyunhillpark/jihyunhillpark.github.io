@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "IoT - 사물인터넷의 첫걸음"
 author: jihyunhill
 categories: IoT

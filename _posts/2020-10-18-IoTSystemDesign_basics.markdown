@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "IoT - 사물인터넷을 위한 기본 요소 "
 author: jihyunhill
 categories: IoT

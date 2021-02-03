@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "IoT - NodeMCU 프로그래밍"
 author: jihyunhill
 categories: IoT

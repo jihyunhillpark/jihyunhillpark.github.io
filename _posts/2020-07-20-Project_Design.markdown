@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "iOS 프로젝트 일지 - 더미데이터 생성(기획)"
 author: jihyunhill
 categories: iOS

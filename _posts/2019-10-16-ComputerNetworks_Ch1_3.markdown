@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "네트워크1장3절"
 author: jihyunhill
 categories: ComputerNetworks
@@ -29,8 +28,7 @@ DM(Frequency-division-multipexing),TDM(Time-division-multiplexing)
 
  TDM : 시간을 일정 주기의 프레임으로 구분하고, 각 프레임을 고정된 수의 시간 슬롯으로 나눈다. (슬롯 1개가 연결에 할당되고, 그 연결은 모든 프레임에서 해당 슬롯 하나를 갖게 된다.)
 
-#### 2.	패킷 교환(packet switching) 
+#### 2.	패킷 교환(packet switching)
  하나의 라우터에서 다른 라우터로 패킷을 보내서, 링크 상에 출발지에서 목적지로 가는 경로들을 거친다.
  링크의 최대 전송 속도와 같은 속도로 각각의 통신링크상에서 전송된다. (each packet transmitted at full link capacity)
  Internet은 패킷 전달을 위해 최선을 다하지만, guarantee는 없다.
-

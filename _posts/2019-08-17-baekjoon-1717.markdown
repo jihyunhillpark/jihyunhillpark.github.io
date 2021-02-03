@@ -1,9 +1,8 @@
 ---
-layout: post
 title:  "백준알고리즘No.1717 - 상호배타적집합(Union,Find) 문제"
 author: Jihyunhill
 categories: Codingstudy
-tags: baekjoon coding test 
+tags: baekjoon coding test
 ---
 
 ## 들어가며
@@ -19,9 +18,9 @@ tags: baekjoon coding test
 
 두 연산은 각각 함수로 구현할 수 있다. 단, Union연산에서 Find를 사용하기 때문에 Find 함수를 먼저 정의해야 한다.
 
-### Find 
+### Find
 
-1. find연산은 속한 집합을 찾는다. 
+1. find연산은 속한 집합을 찾는다.
 
 {% highlight javascript %}
 int find(int a)

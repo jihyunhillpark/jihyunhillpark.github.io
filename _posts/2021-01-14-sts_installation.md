@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Spring - 맥북(Mac)에서 STS설치"
 author: jihyunhill
 categories: Java/Spring
