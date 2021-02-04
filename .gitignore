@@ -6,4 +6,4 @@ _site/
 
 #Bundler
 .bundle/
-vendor/
+vendor/bundle
