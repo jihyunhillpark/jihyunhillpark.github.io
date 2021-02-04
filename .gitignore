@@ -1,0 +1,9 @@
+#jekyll이 생성한 메타 데이터 무시
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+#Bundler
+.bundle/
+vendor/
