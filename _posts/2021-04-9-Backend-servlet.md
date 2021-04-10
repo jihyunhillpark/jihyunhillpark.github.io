@@ -1,6 +1,6 @@
 ---
 title: "Servlet의 lifeCycle, 상속관계"
-categories: Backend
+categories: Java
 toc : true
 tags:
   - TIL
