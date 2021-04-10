@@ -1,6 +1,6 @@
 ---
 title: "Spring - 맥북(Mac)에서 STS설치"
-categories: Java/Spring
+categories: ErrorFix
 tags:
   - Spring
   - Error
