@@ -7,8 +7,8 @@ main:
   # - title: "Sample Posts"
   #   url: /year-archive/
   - title: "Tags"
-    url: /year-archive/
+    url: /tags-grid/
   - title: "Categories"
-    url: /category-archive/
+    url: /categories-grid/
   # - title: "Sitemap"
   #   url: /sitemap/
