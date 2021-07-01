@@ -1,11 +1,12 @@
 ---
 title: "Servlet의 lifeCycle, 상속관계"
-categories: Java
+categories: Web
 toc : true
 tags:
   - TIL
   - Backend
   - Servlet
+  - Web
 ---
 
 ## Servlet이란?
