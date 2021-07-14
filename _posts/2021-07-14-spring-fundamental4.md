@@ -28,7 +28,7 @@ ApplicationContext applicationContext = new AnnotationConfigApplicationContext
 
 2. XML vs 애노테이션 방식     
 java에서 스프링 컨테이너를 생성하는 방법은 설정파일, xml방식, 그리고 애노테이션 기반의 자바 설정 클래스 방식이 있다. xml 방식은 재컴파일을 하지 않아도 된다는 장점이 있지만, 개발자 입장에서는 애노테이션 방식이 좀 더 편리성을 가지므로 애노테이션 기반의 자바 설정 클래스를 많이 사용하는 편이다.    
-스프링이 이렇게 다양한 설정 방식을 지원할 수 있는 까닭은 __BeanDefinition__ 를 통한 추상화가 있기 떄문이다. 즉, 역할과 구현을 개념적으로 나눈 것으로, 설정이 xml이든 annotation기반이든지간에 최종적으로 __메타정보인 BeanDefition으로 만들고, 스프링 컨테이너는 BeanDefinition을 참고하여 스프링 Bean을 생성하는 것이다.__
+스프링이 이렇게 다양한 설정 방식을 지원할 수 있는 까닭은 __BeanDefinition__ 를 통한 추상화가 있기 떄문이다. 즉, 역할과 구현을 개념적으로 나눈 것으로, 설정이 xml이든 annotation기반이든지 간에 최종적으로 __메타정보인 BeanDefition으로 만들고, 스프링 컨테이너는 BeanDefinition을 참고하여 스프링 Bean을 생성하는 것이다.__
 ![/assets/Spring/spring-basic-5.png](/assets/Spring/spring-basic-5.png)    
 BeanDefinition을 생성하는 방법은 크게 두가지인데, SpringBean을 직접 등록하거나, factoryBean(ex. AppConfig)을 통해 등로하는 것이다. 그런데 전자는 거의 안 쓰인다.
 
