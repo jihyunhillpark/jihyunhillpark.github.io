@@ -37,9 +37,9 @@ BeanDefinition을 생성하는 방법은 크게 두가지인데, SpringBean을 �
 1. 스프링 Bean 등록    
 스프링 컨테이너는 아까 넘겨준 설정 클래스의 정보(AppConfig)를 가지고 Bean들을 등록한다. 설정 클래스 내부를 보면 어떤 메서드들 앞에 @Bean 표시가 되어 있을 것인데, 바로 요롷게 @Bean 애노테이션을 달아주면 메소드 이름과 return 객체를 key, value 형태로 Bean을 구성해 Bean저장소에 저장한다. 여기서 저장되는 Bean의 이름은 Unique 해야한다는 것을 명심해야 한다.   
 
-    |Bean 이름|Bean 객체|
-    |---|---|
-    |Car|electricCar|
+    |Bean 이름|Bean 객체|   
+    |---|---|    
+    |Car|electricCar|    
     ```java
     public class AppConfig{
       @Bean // 기본값으로 메서드 명을 Bean이름으로 사용 cf) Bean(name=)
@@ -56,11 +56,11 @@ Bean들을 저장소에 저장 한 뒤, 스프링 컨테이너는 다시 설정 
 ### Bean이란?
 빈은 POJO(Plain Old Java Objet)로, 컨테이너에 의해 관리되는 애플리케이션의 핵심을 이루는 객체이다. Bean의 Scope나 LifeCycle까지 얘기하면 정말 할 얘기도 많고 조사할 것도 많지만 이번 글에서는 간략하게 정의와 종류에 대해서만 알아본다.
 ### 빈의 종류
-|Bean ROLE|설명|
-|---|---|
-|ROLE_APPLICATION| 일반적으로 사용자가 내부에서 사용하는 Bean|
-|ROLE_SUPPORT| 큰 구조의 설정을 지원하는 Bean |
-|ROLE_INFRASTRUCTURE| 컨테이너의 인프라 기반 역할을 제공하는 빈|
+|Bean ROLE|설명|   
+|---|---|    
+|ROLE_APPLICATION| 일반적으로 사용자가 내부에서 사용하는 Bean|    
+|ROLE_SUPPORT| 큰 구조의 설정을 지원하는 Bean |    
+|ROLE_INFRASTRUCTURE| 컨테이너의 인프라 기반 역할을 제공하는 빈|    
 
 출처     
 [https://docs.spring.io/spring-framework/docs/current/kdoc-api/spring-framework/org.springframework.context.support/-bean-definition-dsl/-role/index.html](https://docs.spring.io/spring-framework/docs/current/kdoc-api/spring-framework/org.springframework.context.support/-bean-definition-dsl/-role/index.html)     
