@@ -40,7 +40,7 @@ BeanDefinition을 생성하는 방법은 크게 두가지인데, SpringBean을 �
     |Bean 이름|Bean 객체|   
     |:----:|:----:|   
     |Car|electricCar| 
-       
+
     ```java
     public class AppConfig{
       @Bean // 기본값으로 메서드 명을 Bean이름으로 사용 cf) Bean(name=)
@@ -58,11 +58,11 @@ Bean들을 저장소에 저장 한 뒤, 스프링 컨테이너는 다시 설정 
 빈은 POJO(Plain Old Java Objet)로, 컨테이너에 의해 관리되는 애플리케이션의 핵심을 이루는 객체이다. Bean의 Scope나 LifeCycle까지 얘기하면 정말 할 얘기도 많고 조사할 것도 많지만 이번 글에서는 간략하게 정의와 종류에 대해서만 알아본다.
 ### 빈의 종류
 
-|Bean ROLE|설명|   
+|Bean ROLE|설명|
 |:----:|:----:|   
-|ROLE_APPLICATION| 일반적으로 사용자가 내부에서 사용하는 Bean|   
-|ROLE_SUPPORT| 큰 구조의 설정을 지원하는 Bean |   
-|ROLE_INFRASTRUCTURE| 컨테이너의 인프라 기반 역할을 제공하는 빈|    
+|ROLE_APPLICATION|일반적으로 사용자가 내부에서 사용하는 Bean|   
+|ROLE_SUPPORT|큰 구조의 설정을 지원하는 Bean|   
+|ROLE_INFRASTRUCTURE|컨테이너의 인프라 기반 역할을 제공하는 빈|    
 
 출처     
 [https://docs.spring.io/spring-framework/docs/current/kdoc-api/spring-framework/org.springframework.context.support/-bean-definition-dsl/-role/index.html](https://docs.spring.io/spring-framework/docs/current/kdoc-api/spring-framework/org.springframework.context.support/-bean-definition-dsl/-role/index.html)     
