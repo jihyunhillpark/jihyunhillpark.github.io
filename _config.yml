@@ -19,7 +19,7 @@ locale                   : "ko-KO"
 title                    : "젼꾸의 CS월드 🌾"
 title_separator          : "-"
 subtitle                 : "to make each day count" # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "jihyunhillpark"
 description              : "An amazing website."
 url                      : "https://jihyunhillpark.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
