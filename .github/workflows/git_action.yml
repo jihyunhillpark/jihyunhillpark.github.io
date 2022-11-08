@@ -14,4 +14,4 @@ jobs:
         TARGET_REPO: jihyunhillpark/jihyunhillpark.github.io
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: yarn && yarn docs:build
-        BUILD_DIR: blog/.vuepress/dist/
+        BUILD_DIR: docs/.vuepress/dist/
