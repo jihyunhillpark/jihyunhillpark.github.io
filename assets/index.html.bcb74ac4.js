@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"져니의","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1667936554000,"contributors":[{"name":"jihyunhillpark","email":"girl9505@naver.com","commits":3},{"name":"jihyunPark","email":"girl9505@naver.com","commits":1}]},"filePathRelative":"README.md"}');export{e as data};
