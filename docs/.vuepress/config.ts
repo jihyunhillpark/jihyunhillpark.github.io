@@ -1,6 +1,9 @@
 import { defaultTheme } from '@vuepress/theme-default'
+import { head } from './configs/index.js'
 
 export default {
+  base: '/',
+  head,
   locales: {
     '/': {
       lang: 'en-US',
@@ -10,5 +13,6 @@ export default {
   },
   theme: defaultTheme({
     sidebar: 'auto',
+    logo: '/images/author.jpg'
   }),
 }
