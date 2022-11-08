@@ -6,9 +6,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-        with:
-          # fetch all commits to get last updated time or other git log info
-          fetch-depth: 0
+      with:
+        # fetch all commits to get last updated time or other git log info
+        fetch-depth: 0
           
     # run build script
     - name: Build VuePress site
