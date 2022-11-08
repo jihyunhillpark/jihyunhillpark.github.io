@@ -12,7 +12,7 @@ jobs:
           
     # run build script
     - name: Build VuePress site
-      run: yarn docs:build
+      run: yarn && yarn docs:build
       
     # @see https://github.com/crazy-max/ghaction-github-pages
     - name: Deploy to GitHub Pages
