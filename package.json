@@ -1,0 +1,15 @@
+{
+  "name": "JIHYUN_BLOG",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jihyunhillpark/jihyunhillpark.github.io.git",
+  "author": "jihyunhillpark <girl9505@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
